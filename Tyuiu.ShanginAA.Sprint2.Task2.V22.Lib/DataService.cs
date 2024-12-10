@@ -8,15 +8,17 @@ namespace Tyuiu.ShanginAA.Sprint2.Task2.V22.Lib
         {
             bool res = false;
 
-            if ((y == 3 || y == 4) && ((x >= 3 && x <= 5 ) || (x >= 9 && x <= 12)))
+            if ((y == 3 || y == 4) && ((x >= 3 && x <= 5) || (x >= 9 && x <= 12)))
             {
                 res = true;
             }
-            else if ((y >= 5 && y <= 7) && (x >= 3 && x <= 13) && (x != 13 && y == 5))
+            else if ((y >= 6 && y <= 7) && (x >= 3 && x <= 13))
             {
                 res = true;
             }
-            
+            else if ((y == 5) && (x >= 3 && x <= 12)) res = true;
+
+
             else if ((y == 8) && ((x >= 4 && x <= 6) || (x >= 9 && x <= 10) || (x >= 12 && x <= 13))) res = true;
 
             else if ((y == 9) && ((x >= 4 && x <= 6) || (x >= 9 && x <= 10) || (x == 12))) res = true;
