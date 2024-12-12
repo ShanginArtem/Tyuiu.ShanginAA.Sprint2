@@ -15,40 +15,40 @@ namespace Tyuiu.ShanginAA.Sprint2.Task5.V7.Lib
             switch (n)
             {
                 case 0:
-                    month = "Январь";
+                    month = "январь";
                     break;
                 case 1:
-                    month = "Февраль";
+                    month = "февраль";
                     break;
                 case 2:
-                    month = "Март";
+                    month = "март";
                     break;
                 case 3:
-                    month = "Аперель";
+                    month = "аперель";
                     break;
                 case 4:
-                    month = "Май";
+                    month = "май";
                     break;
                 case 5:
-                    month = "Июнь";
+                    month = "июнь";
                     break;
                 case 6:
-                    month = "Июль";
+                    month = "июль";
                     break;
                 case 7:
-                    month = "Август";
+                    month = "август";
                     break;
                 case 8:
-                    month = "Сентябрь";
+                    month = "сентябрь";
                     break;
                 case 9:
-                    month = "Октябрь";
+                    month = "октябрь";
                     break;
                 case 10:
-                    month = "Ноябрь";
+                    month = "ноябрь";
                     break;
                 case 11:
-                    month = "Декабрь";
+                    month = "декабрь";
                     break;
                 default:
                     month = "Неверное число";
